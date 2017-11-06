@@ -10,5 +10,6 @@ Exercise2:
 Exercise4:
 2: Disadvantage of binary thresholding is that it filters out all other values other than 1's and 0's. Hence,we may encounter a loss of information.
 
-3:
+Exercise4:
+3:In simple thresholding, the threshold value is global, i.e., it is same for all the pixels in the image. Adaptive thresholding is the method where the threshold value is calculated for smaller regions and therefore, there will be different threshold values for different regions.
 
