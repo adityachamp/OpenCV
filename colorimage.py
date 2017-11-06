@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -6,9 +12,9 @@
 
 import cv2
 
-input_og = cv2.imread('OpenCV_homework/Test_images/Lenna.png')
+input_og = cv2.imread('Test_images/Lenna.png')
 [b,g,r]= cv2.split(input_og)
-
+#print(input_og.shape)
 cv2.imshow('Blue',b)
 cv2.imshow('Green',g)
 cv2.imshow('Red',r)
